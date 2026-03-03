@@ -1,0 +1,13 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "method": "QLoRA 4-bit (PEFT + bitsandbytes) — TRL-free",
+  "train_subset": 3000,
+  "val_subset": 500,
+  "test_subset": 400,
+  "rouge_f1": {
+    "rouge1": 0.12575225724264544,
+    "rouge2": 0.0375897642387427,
+    "rougeL": 0.12383095427966495
+  },
+  "notes": "Unsloth docs: https://docs.unsloth.ai/ (optional acceleration)"
+}

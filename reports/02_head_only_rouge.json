@@ -1,0 +1,12 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "method": "head-only (untied lm_head)",
+  "train_subset": 2000,
+  "val_subset": 400,
+  "test_subset": 400,
+  "rouge_f1": {
+    "rouge1": 0.1531566379937795,
+    "rouge2": 0.049229604859551676,
+    "rougeL": 0.14856914541753755
+  }
+}
